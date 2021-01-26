@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">airupdate</string>
+    <string moduleConfig="true" name="CodePushDeploymentKey">jw-sV8jTBDVAN5vUpGx6UZoYe6oxaehnwnFfh</string>
 </resources>
