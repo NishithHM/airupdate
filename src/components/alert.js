@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, Text, Alert} from 'react-native';
+import {Alert} from 'react-native';
 
 const ModalAlert = () => {
   return (

@@ -1,5 +1,6 @@
 import React from 'react';
 import {View, Text, Linking, StyleSheet} from 'react-native';
+import ModalAlert from './alert';
 
 const Home = () => {
   return (
@@ -30,6 +31,15 @@ const Home = () => {
           Linking.openURL('https://github.com/NishithHM/airupdate')
         }>
         Get this code here
+      </Text>
+      <Text
+        style={styles.content}
+        onPress={() =>
+          Linking.openURL(
+            'https://drive.google.com/file/d/1TnmZhnFIAIEL5HjXFFl8CSB_e_VehqO7/view?usp=sharing',
+          )
+        }>
+        Get the PPT here
       </Text>
       <View>
         <Text style={styles.subHeading}>Are you looking out ?</Text>
