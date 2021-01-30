@@ -1,0 +1,6 @@
+Commands:
+Initilisation
+appcenter app create -d airupdate -o Android -p React-Native
+
+Production Push
+appcenter codepush release-react -a nhm987/airupdate -d Production
