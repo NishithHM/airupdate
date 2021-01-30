@@ -52,6 +52,7 @@ const Home = () => {
           nishith.hm@betterplace.co.in
         </Text>
       </View>
+      <ModalAlert />
     </View>
   );
 };
